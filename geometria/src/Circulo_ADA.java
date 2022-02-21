@@ -7,6 +7,9 @@ public class Circulo_ADA extends FiguraGeometrica_ADA {
 	public Circulo_ADA(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (radio<0) {
+			radio = Math.abs(radio);
+		}
 	}
 
 	@Override
