@@ -20,3 +20,4 @@ public class Rectangulo extends FiguraGeometrica {
 	}
 
 }
+ 

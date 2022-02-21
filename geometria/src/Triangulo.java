@@ -27,3 +27,4 @@ public class Triangulo extends FiguraGeometrica {
 		return this.perimetro() / 2;
 	}
 }
+  
